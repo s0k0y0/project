@@ -1,0 +1,21 @@
+<<설계>>
+starUML의 new from Template-conventional 모델 생성
+
+
+회원 등록
+com.stone.simple.member(presentation,service,dataserivce,common)
+
+정리는 presentation에서만 하는 것 같음. 나머지 service,dataservice,common은 그냥 클래스 다이어그램만 생성
+
+1.그림판 화면설계 check!
+2.start UML설계 check!
+3.DB생성  and DBcofig연결 check!
+4.main창 생성 check!
+5.회원등록 코트 작성  check!
+
+로그인
+com.stone.simple.login(presentation,service,dataserivce,common)
+1.로그인 UML설계
+2.로그인창 생성
+3.로그인 코드 작성
+*componentScan(basePackages="com.stone")-->해당 경로의 패키지의 하단 클래스는 전부 빈 등록 생략 가능
